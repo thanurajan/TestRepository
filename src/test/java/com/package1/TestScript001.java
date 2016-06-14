@@ -25,4 +25,8 @@ public class TestScript001 {
 				"Test12345");
 		driver.findElement(By.id("edit-login-submit")).click();
 	}
+	@BeforeClass()
+	public void tearDown() {
+		System.out.println("This is a tearDown method");
+	}
 }
