@@ -12,7 +12,7 @@ public class TestScript001 {
 
 	@BeforeClass()
 	public void setUp() {
-		System.out.println("This is a setUp method");
+		System.out.println("This  is a setUp method");
 	}
 
 	@Test
