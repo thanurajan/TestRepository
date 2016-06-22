@@ -27,6 +27,6 @@ public class TestScript001 {
 	}
 	@BeforeClass()
 	public void tearDown() {
-		System.out.println("This is a tearDown method");
+		System.out.println("This is a tear Down method");
 	}
 }
